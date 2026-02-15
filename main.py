@@ -1,4 +1,4 @@
-#step1: Import libraries and load the model
+#step1: Import libraries and load the model.
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.datasets import imdb
@@ -65,4 +65,5 @@ else:
 st.write('---')
 st.write('**Sample Reviews to Try:**')
 st.write('• Positive: "This movie was fantastic and so thrilling! Best film I\'ve seen this year."')
+
 st.write('• Negative: "Terrible waste of time. Poor acting and boring plot."')
